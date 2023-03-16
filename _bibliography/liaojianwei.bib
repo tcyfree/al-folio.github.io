@@ -1,0 +1,107 @@
+---
+---
+@article{10.1145/3522755,
+  abbr={ACM TODAES},
+  author = {Sha, Zhibing and Li, Jun and Cai, Zhigang and Huang, Min and Liao, Jianwei and Trahay, Francois},
+  title = {Degraded Mode-Benefited I/O Scheduling to Ensure I/O Responsiveness in RAID-Enabled SSDs},
+  year = {2022},
+  issue_date = {November 2022},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {27},
+  number = {6},
+  issn = {1084-4309},
+  url = {https://doi.org/10.1145/3522755},
+  doi = {10.1145/3522755},
+  abstract = {RAID-enabled SSDs commonly have unbalanced I/O workloads on their components (e.g., SSD channels), as the data/parity chunks in the same stripe may have varied access frequency, which greatly impacts I/O responsiveness. This article proposes a I/O scheduling scheme by resorting to the degraded read mode and the read-modify-write mode to reduce the long-tail latency of I/O requests in RAID-enabled SSDs. The basic idea is to avoid scheduling read or update requests to the heavily congested but targeted RAID components. Such requests are satisfied by accessing other relevant RAID components by certain XOR computations (we call the degraded modes). Specially, we build a queuing overhead assessment model on the top of factors of data redundancy and the current blocked I/O traffics on SSD channels to precisely dispatch incoming I/O requests to be fulfilled with the degraded mode or not. The trace-driven experiments illustrate that the proposed scheme can reduce the long-tail latency of read requests by 23.1% on average at the 99.99th percentile, in contrast to state-of-the-art scheduling methods.},
+  journal = {ACM Trans. Des. Autom. Electron. Syst.},
+  month = {nov},
+  articleno = {64},
+  numpages = {24},
+  keywords = {SSDs, long-tail latency, reliability, degraded mode, modeling, RAID-5},
+  selected={true},
+  preview={TODAES2022.jpeg}
+}
+
+@article{liao2022read,
+  abbr={ACM TECS},
+  title={Read Refresh Scheduling and Data Reallocation against Read Disturb in SSDs},
+  author={Liao, Jianwei and Li, Jun and Zhao, Mingwang and Sha, Zhibing and Cai, Zhigang},
+  journal={ACM Transactions on Embedded Computing Systems (TECS)},
+  volume={21},
+  number={2},
+  pages={1--27},
+  year={2022},
+  publisher={ACM New York, NY},
+  selected={true}
+}
+
+@article{li2022pattern,
+  abbr={ACM TOS},
+  title={Pattern-based prefetching with adaptive cache management inside of solid-state drives},
+  author={Li, Jun and Xu, Xiaofei and Cai, Zhigang and Liao, Jianwei and Li, Kenli and Gerofi, Balazs and Ishikawa, Yutaka},
+  journal={ACM Transactions on Storage (TOS)},
+  volume={18},
+  number={1},
+  pages={1--25},
+  year={2022},
+  publisher={ACM New York, NY}
+}
+
+@article{sha2021low,
+  abbr={ACM TACO},
+  title={Low I/O intensity-aware partial GC scheduling to reduce long-tail latency in SSDs},
+  author={Sha, Zhibing and Li, Jun and Song, Lihao and Tang, Jiewen and Huang, Min and Cai, Zhigang and Qian, Lianju and Liao, Jianwei and Liu, Zhiming},
+  journal={ACM Transactions on Architecture and Code Optimization (TACO)},
+  volume={18},
+  number={4},
+  pages={1--25},
+  year={2021},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{li2020mitigating,
+  abbr={ACM TODAES},
+  title={Mitigating negative impacts of read disturb in SSDs},
+  author={Li, Jun and Huang, Bowen and Sha, Zhibing and Cai, Zhigang and Liao, Jianwei and Gerofi, Balazs and Ishikawa, Yutaka},
+  journal={ACM Transactions on Design Automation of Electronic Systems (TODAES)},
+  volume={26},
+  number={1},
+  pages={1--24},
+  year={2020},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{liao2020toward,
+  abbr={ACM TOMPECS},
+  title={Toward Efficient Block Replication Management in Distributed Storage},
+  author={Liao, Jianwei and Sha, Zhibing and Cai, Zhigang and Liu, Zhiming and Li, Kenli and Liao, Wei-Keng and Choudhary, Alok N and Ishiakwa, Yutaka},
+  journal={ACM Transactions on Modeling and Performance Evaluation of Computing Systems (TOMPECS)},
+  volume={5},
+  number={3},
+  pages={1--27},
+  year={2020},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{li2020patch,
+  abbr={ESWEEK 2020},
+  title={Patch-based data management for dual-copy buffers in RAID-enabled SSDs. <span style="color:red;font-size:15px;">[Best paper candidate]</span>},
+  author={Li, Jun and Sha, Zhibing and Cai, Zhigang and Trahay, Fran{\c{c}}ois and Liao, Jianwei},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  volume={39},
+  number={11},
+  pages={3956--3967},
+  year={2020},
+  publisher={IEEE}
+}
+
+@inproceedings{liao2016toward,
+  abbr={Euro-par 2016},
+  title={Toward a general I/O arbitration framework for netCDF based big data processing. <span style="color:red;font-size:15px;">[Best paper collection]</span>},
+  author={Liao, Jianwei and Gerofi, Balazs and Lien, Guo-Yuan and Nishizawa, Seiya and Miyoshi, Takemasa and Tomita, Hirofumi and Ishikawa, Yutaka},
+  booktitle={Euro-Par 2016: Parallel Processing: 22nd International Conference on Parallel and Distributed Computing, Grenoble, France, August 24-26, 2016, Proceedings 22},
+  pages={293--305},
+  year={2016},
+  organization={Springer}
+}

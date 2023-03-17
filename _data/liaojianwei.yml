@@ -63,7 +63,7 @@
 
 - title: Academic Interests
   type: nested_list
-  description: Engaged in scientific research related to the optimization technology of reliable operating systems and big data storage systems
+  description: Engaged in scientific research related to the optimization technology of reliable operating systems, big data storage systems, and deep learning.
   contents:
     - title: Dependable operating systems
       items:
@@ -74,6 +74,10 @@
         - I/O optimization support technology for parallel/distributed storage systems
         - Solid State Drive I/O optimization technology
         - HDD
+    - title: Deep Learning
+      items:
+        - CNN
+        - RNN
 
 - title: Pulications
   type: liaojw_papers

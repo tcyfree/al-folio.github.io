@@ -2,7 +2,8 @@
 layout: liaojianwei
 title: 廖剑伟
 description: a project with a background image
-# img: assets/img/Liaojianwei.jpeg
+cv_img: assets/img/Liaojianwei.jpeg
+cv_pdf: example_pdf.pdf
 importance: 1
 category: Supervisor
 ---

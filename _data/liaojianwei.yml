@@ -63,12 +63,16 @@
 
 - title: Academic Interests
   type: nested_list
+  description: Engaged in scientific research related to the optimization technology of reliable operating systems and big data storage systems
   contents:
     - title: Dependable operating systems
+      items:
+      - Design and development of storage systems for cloud computing and big data applications
 
     - title: High-performance storage systems
       items:
-        - SSD
+        - I/O optimization support technology for parallel/distributed storage systems
+        - Solid State Drive I/O optimization technology
         - HDD
 
 - title: Pulications

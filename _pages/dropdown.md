@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Submenus
+title: Researchs
 nav: true
-nav_order: 6
+nav_order: 1
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: StorageSystems
+      permalink: /blog/
     - title: divider
-    - title: projects
+    - title: DeepLearning
       permalink: /projects/
 ---

@@ -1,8 +1,10 @@
 ---
 layout: liaojianwei
 title: 廖剑伟
-description: a project with a background image
-cv_img: assets/img/Liaojianwei.jpeg
+description: Professor, Doctoral Supervisor
+# img: assets/img/people/Liaojianwei.jpeg
+# img: assets/img/people/Liaojianwei.png
+img: assets/img/1.jpg
 cv_pdf: example_pdf.pdf
 importance: 1
 category: Supervisor

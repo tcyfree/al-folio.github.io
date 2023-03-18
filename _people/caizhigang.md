@@ -2,7 +2,7 @@
 layout: page
 title: 	蔡志刚
 description: a project with a background image
-img: 
+img: assets/img/1.jpg
 importance: 2
 category: Supervisor
 ---

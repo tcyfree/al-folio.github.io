@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 	蔡志刚
-description: a project with a background image
+title: 肖晨祺
+description: another without an image
 # img: assets/img/1.jpg
-importance: 2
-category: Supervisor
+importance: 3
+category: Master
 ---
 
 Every project has a beautiful feature showcase page.

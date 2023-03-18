@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 上官青云
-description: a project with a background image
-# img: assets/img/1.jpg
+title: 李民军
+description: another without an image
+img:
 importance: 3
-category: Alumni
+category: Master
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,11 +1,10 @@
 ---
 layout: page
-title: 李骏
+title: 宋立豪
 description: another without an image
-img: assets/img/people/lijun.png
-# redirect: https://unsplash.com
+# img: assets/img/1.jpg
 importance: 3
-category: PhD
+category: Alumni
 ---
 
 Every project has a beautiful feature showcase page.

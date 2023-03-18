@@ -1,11 +1,10 @@
 ---
 layout: page
-title: 李骏
+title: 罗俊豪
 description: another without an image
-img: assets/img/people/lijun.png
-# redirect: https://unsplash.com
-importance: 3
-category: PhD
+# img: assets/img/1.jpg
+importance: 4
+category: Master
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,12 +1,9 @@
 ---
-layout: liaojianwei
-title: 廖剑伟
-description: Professor, Doctoral Supervisor
-# img: assets/img/people/Liaojianwei.jpeg
-# img: assets/img/people/Liaojianwei.png
-# img: assets/img/1.jpg
-cv_pdf: example_pdf.pdf
-importance: 1
+layout: page
+title: 	蔡志刚
+description: Lecturer, Supervisor
+img: assets/img/people/caizg.png
+importance: 2
 category: Supervisor
 ---
 

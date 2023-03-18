@@ -1,11 +1,10 @@
 ---
 layout: page
-title: 李骏
+title: 唐杰文
 description: another without an image
-img: assets/img/people/lijun.png
-# redirect: https://unsplash.com
+img:
 importance: 3
-category: PhD
+category: Master
 ---
 
 Every project has a beautiful feature showcase page.

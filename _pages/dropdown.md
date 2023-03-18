@@ -5,9 +5,9 @@ nav: true
 nav_order: 1
 dropdown: true
 children: 
-    - title: Storage Systems
+    - title: StorageSystems
       permalink: /blog/
     - title: divider
-    - title: Deep Learning
+    - title: DeepLearning
       permalink: /projects/
 ---

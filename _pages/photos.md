@@ -4,7 +4,7 @@ permalink: /photos/
 title: Photos
 description: 
 nav: true
-nav_order: 4
+nav_order: 5
 
 ---
 <h2 style="padding-bottom: 5px; text-align:center; border-bottom: 1.5px solid #484646;">2019 Graduation Dinner</h2>

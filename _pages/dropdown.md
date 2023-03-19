@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Researchs
-nav: true
-nav_order: 1
+nav: false
+nav_order: 2
 dropdown: true
 children: 
     - title: StorageSystems

@@ -4,7 +4,7 @@ title: People
 permalink: /people/
 description: 
 nav: true
-nav_order: 1
+nav_order: 4
 display_categories: [Supervisor, PhD, Master, Alumni]
 horizontal: false
 ---

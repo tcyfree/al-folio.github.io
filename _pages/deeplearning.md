@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Storage
-permalink: /storage/
+title: DeepLearning
+permalink: /deeplearning/
 # description: A growing collection of your cool projects.
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 <!-- pages/projects.md -->
@@ -13,7 +13,7 @@ nav_order: 1
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.storage | where: "category", category -%}
+  {%- assign categorized_projects = site.deeplearning | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
@@ -35,7 +35,7 @@ nav_order: 1
 
 {%- else -%}
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.storage | sort: "importance" -%}
+  {%- assign sorted_projects = site.deeplearning | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">

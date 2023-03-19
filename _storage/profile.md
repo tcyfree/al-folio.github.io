@@ -1,11 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
+title: Our profile
+description: High-performance storage systems platform
+img: assets/img/lab4.png
+importance: 2
 category: work
 ---
+
+{%- include improve.html -%}
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

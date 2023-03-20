@@ -20,7 +20,26 @@
   numpages = {24},
   keywords = {SSDs, long-tail latency, reliability, degraded mode, modeling, RAID-5},
   selected={true},
-  preview={TODAES2022.jpeg}
+  preview={TODAES2022.jpeg},
+  pdf={https://hal.science/hal-03608269/file/sample-acmsmall.pdf}
+}
+}
+
+@article{wu2022adaptive,
+  abbr={IEEE TCAD},
+  title={Adaptive Switch on Wear Leveling for Enhancing I/O Latency and Lifetime of High-Density SSDs},
+  author={Wu, Jiaojiao and Li, Jun and Sha, Zhibing and Cai, Zhigang and Liao, Jianwei},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  volume={41},
+  number={11},
+  pages={4040--4051},
+  year={2022},
+  publisher={IEEE},
+  selected={true},
+  preview={TCAD2022.png},
+  abstract = {NAND flash-based high-density solid-state drives (SSDs) commonly have limited write endurance, as a single block becomes unavailable after a finite number of program/erase cycles. The (static) wear leveling algorithms migrate cold data to more worn blocks for yielding an even distribution of wears in SSDs. However, migrating cold data must delay normal I/O processing, and unnecessary wear leveling operations may damage SSD endurance as each operation causes a program/erase cycle. This article proposes an adaptive switch on wear leveling (called ASWL), to boost I/O performance and lifetime for high-density SSDs. The basic idea of ASWL is to adaptively switch the threshold function for intelligently triggering wear leveling operations at different stages of SSD lifetime. To this end, we build a mathematical model determining the wear leveling threshold condition with a dynamic manner, by considering the real-time factors of I/O intensity and the wear difference of SSD blocks. Through a series of emulation experiments on several realistic disk traces, we show that the proposed ASWL mechanism can not only greatly improve I/O performance but also noticeably extend the lifetime of high-density SSDs, in contrast to existing wear leveling methods.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9852800},
+  presentation={https://www.youtube.com/watch?v=9E56FcMcZUM}
 }
 
 @article{liao2022read,
@@ -93,7 +112,10 @@
   number={11},
   pages={3956--3967},
   year={2020},
-  publisher={IEEE}
+  abstract = {While a dual-copy redundant array of independent disk (RAID) buffering can remove single point of failure in the buffer of RAID-enabled solid-state drives (SSDs), it loses a half of buffer space efficiency as a result. This article introduces a patch-based data management scheme for dual-copy buffers in RAID-enabled SSDs, for better improving buffer use efficiency. Different from conventional methods that caches data/parity chunks in the RAID buffer, it caches the modified portions of data chunks (called data patches) and then employs a cost-evaluation model to direct patch data replacement. Besides, in order to correctly respond to applications' read/write requests, we design the patch-based read/write mode by taking the original dirty data chunks and relevant up-to-date patches into account. Through a series of simulation tests on several realistic disk traces, we illustrate that patch-based data management can work for RAID-enabled SSDs to enhance buffer use efficiency, and then yield better I/O performance. Especially, our proposal can noticeably reduce the I/O latency by 39.1% and the number of block erases by 3.9% on average, in contrast to state-of-the-art approaches.},
+  publisher={IEEE},
+  preview={ESWEEK2020.png},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9211551}
 }
 
 @inproceedings{liao2016toward,
@@ -103,5 +125,6 @@
   booktitle={Euro-Par 2016: Parallel Processing: 22nd International Conference on Parallel and Distributed Computing, Grenoble, France, August 24-26, 2016, Proceedings 22},
   pages={293--305},
   year={2016},
-  organization={Springer}
+  organization={Springer},
+  html={https://link.springer.com/chapter/10.1007/978-3-319-43659-3_22}
 }

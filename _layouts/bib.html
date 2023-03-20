@@ -22,7 +22,7 @@
             {% include figure.html 
             path=entry_path 
             class="preview z-depth-1 rounded"
-            alt=entry.preview -%}
+            alt=entry.preview zoomable=true -%}
           {%- endif -%}
         {%- elsif entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}

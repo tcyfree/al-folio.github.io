@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /open-positions/
-title: <strong style="color:#e23636;">Open Postions</strong>
+# title: <strong style="color:#e23636;">Open Postions</strong>
+title: Open Postions
 description: 
 nav: true
 nav_order: 10

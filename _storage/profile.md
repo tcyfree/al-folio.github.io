@@ -16,17 +16,7 @@ category: work
 
 总之，分布式计算与存储实验室是一个致力于分布式计算和存储技术研究的专业实验室，旨在推动这些领域的发展，提高计算机系统的性能和可靠性。
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/storage/lab4.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/storage/lab8.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Open Channel SSD Prototype Development & Hardware platform schematic diagram
-</div>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

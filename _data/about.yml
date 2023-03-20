@@ -17,3 +17,20 @@
       year: 2022 - 2023
       description: 构建桑蚕疾病监测与防治智慧服务系统，加快工厂化养蚕生产线技术的推广，进一步促进我市甚至我国蚕桑产业的大规模智能化发展。
 
+- title: Research Works
+  type: nested_list
+  contents:
+    - title: Dependable operating systems
+      items:
+      - Design and development of storage systems for cloud computing and big data applications
+
+    - title: High-performance storage systems
+      items:
+        - I/O optimization support technology for parallel/distributed storage systems
+        - Solid State Drive I/O optimization technology
+        - HDD
+    - title: Deep Learning
+      items:
+        - CNN
+        - RNN
+

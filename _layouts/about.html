@@ -52,6 +52,30 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
+                    <!-- Foundation -->
+                    {% if page.fundations -%}
+                    <h2><a href="" style="color: inherit;">foundations</a></h2>
+                    {% for entry in site.data.about %}
+                    <div class="publications">
+                      <div>
+                      {% if entry.type == "list" %}
+                        {% include cv/list.html %}
+                      {% elsif entry.type == "map" %}
+                        {% include cv/map.html %}
+                      {% elsif entry.type == "nested_list" %}
+                        {% include cv/nested_list.html %}
+                      {% elsif entry.type == "time_table" %}
+                       {% include cv/time_table_fundations.html %}
+                      {% elsif entry.type == "liaojw_papers" %}
+                       {% include cv/liaojw_papers.html %}
+                      {% else %}
+                        {{ entry.contents }}
+                      {% endif %}
+                      </div>
+                    </div>
+                    {% endfor %}
+                  {%- endif %}
+
           <!-- Social -->
           {%- if page.social %}
             <div class="social">

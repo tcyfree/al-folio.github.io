@@ -5,8 +5,8 @@
       value: Jianwei Liao
     - name: Date of Birth
       value:  1981
-    - name: Languages
-      value: Chinese, English, Japanese
+    # - name: Languages
+    #   value: Chinese, English, Japanese
 
 - title: Experience
   type: time_table
@@ -19,11 +19,11 @@
       institution:  College of Computer and Information Science, Southwest University of China
       year: 2013 - 2018
     
-    - title:  Postdoc researcher
-      institution: the AICS of RIKEN, Japan
-      year: 2015 - 2017
-      description:
-        - Working on the FUGAKA supercomputer project
+    # - title:  Postdoc researcher
+    #   institution: the AICS of RIKEN, Japan
+    #   year: 2015 - 2017
+    #   description:
+    #     - Working on the FUGAKA supercomputer project
 
     - title: Ph.D.
       institution: Computer science from the University of Tokyo, Japan
@@ -40,37 +40,37 @@
       year: 2021 - 2024
       description: 该项目主要研究支持RAID机制的高可靠固态硬盘I/O优化机制，包括负载均衡、条带重组和DRAM缓存管理等相关研究。
 
-    - title: <span style="color:red;font-size:18px;">参与</span>（排名：7/12）-国家自然科学基金（重点项目，349W）：人机物三元融合场景的泛在计算抽象和软件定义方法
-      year: 2021 - 2025
-      description: 该项目研究建立人机物融合场景的计算模型和计算理论，并在此基础上，设计、开发、部署和运维诸如灾后联合救援和跨域健康紧急救护的人机物融合场景应用。该项目中云计算平台建设需要考虑人机物场景应用的数据访问特征，研究实现高性能的存储基础设施。
+    # - title: <span style="color:red;font-size:18px;">参与</span>（排名：7/12）-国家自然科学基金（重点项目，349W）：人机物三元融合场景的泛在计算抽象和软件定义方法
+    #   year: 2021 - 2025
+    #   description: 该项目研究建立人机物融合场景的计算模型和计算理论，并在此基础上，设计、开发、部署和运维诸如灾后联合救援和跨域健康紧急救护的人机物融合场景应用。该项目中云计算平台建设需要考虑人机物场景应用的数据访问特征，研究实现高性能的存储基础设施。
 
-    - title: <span style="color:red;font-size:18px;">组长</span> 重庆市商务委员会专项目基金(50W)：基于人工智能的工厂养蚕的蚕病识别系统研究
-      year: 2022 - 2023
-      description: 构建桑蚕疾病监测与防治智慧服务系统，加快工厂化养蚕生产线技术的推广，进一步促进我市甚至我国蚕桑产业的大规模智能化发展。
+    # - title: <span style="color:red;font-size:18px;">组长</span> 重庆市商务委员会专项目基金(50W)：基于人工智能的工厂养蚕的蚕病识别系统研究
+    #   year: 2022 - 2023
+    #   description: 构建桑蚕疾病监测与防治智慧服务系统，加快工厂化养蚕生产线技术的推广，进一步促进我市甚至我国蚕桑产业的大规模智能化发展。
 
-    - title: <span style="color:red;font-size:18px;">主持</span> 国家自然科学基金委员会-广东联合基金（超级计算科学应用研究专项）
-      year: 2015 - 2017
+    # - title: <span style="color:red;font-size:18px;">主持</span> 国家自然科学基金委员会-广东联合基金（超级计算科学应用研究专项）
+    #   year: 2015 - 2017
 
-    - title: <span style="color:red;font-size:18px;">主持</span> 重庆市自然科学基金（面上，10W）：面向大数据存储的并行文件系统优化机制研究
-      year: 2018 - 2020
-      # description: 
+    # - title: <span style="color:red;font-size:18px;">主持</span> 重庆市自然科学基金（面上，10W）：面向大数据存储的并行文件系统优化机制研究
+    #   year: 2018 - 2020
+    #   # description: 
 
-    - title: <span style="color:red;font-size:18px;">主持</span> 国家自然科学基金（青年，23W）：结合逻辑与物理 I/O 访问信息的存储系统优化策略的研究
-      year: 2014 - 2016
-      # description: 
+    # - title: <span style="color:red;font-size:18px;">主持</span> 国家自然科学基金（青年，23W）：结合逻辑与物理 I/O 访问信息的存储系统优化策略的研究
+    #   year: 2014 - 2016
+    #   # description: 
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: Dec, 2021
-      items: 
-        - 西南大学“十三五”科研工作先进个人
+    # - year: Dec, 2021
+    #   items: 
+    #     - 西南大学“十三五”科研工作先进个人
     - year: Nov, 2020
       items: 
         - 重庆英才计划·青年拔尖人才
-    - year: Spet, 2016
-      items: 
-        - 西南大学第二届青年教师成才奖
+    # - year: Spet, 2016
+    #   items: 
+    #     - 西南大学第二届青年教师成才奖
 
 - title: Academic Interests
   type: nested_list
@@ -85,10 +85,10 @@
         - I/O optimization support technology for parallel/distributed storage systems
         - Solid State Drive I/O optimization technology
         - HDD
-    - title: Deep Learning
-      items:
-        - CNN
-        - RNN
+    # - title: Deep Learning
+    #   items:
+    #     - CNN
+    #     - RNN
 
 - title: Pulications
   type: liaojw_papers

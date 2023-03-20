@@ -3,7 +3,7 @@ layout: page
 title: People
 permalink: /people/
 description: 
-nav: true
+nav: false
 nav_order: 4
 display_categories: [Supervisor, PhD, Master, Alumni]
 horizontal: false

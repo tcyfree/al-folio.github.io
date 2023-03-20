@@ -3,7 +3,7 @@ layout: page
 title: DeepLearning
 permalink: /deeplearning/
 # description: A growing collection of your cool projects.
-nav: true
+nav: false
 nav_order: 2
 ---
 
